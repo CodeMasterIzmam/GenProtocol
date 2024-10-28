@@ -1,0 +1,318 @@
+.home {
+  padding: 65px 0px 0px;
+}
+/* .home .card-img{
+    width: 634px;
+    height: 500px;
+} */
+.home .direct-img{
+    width: 90%;
+}
+.home .card{
+  
+  background: url(../../Components/Assets/Laptop.png) no-repeat;
+  background-size: 100% 100%;
+  width: 727px;
+  height: 480px;
+  border: 0px;
+}
+.home .video{
+  width: 100%;
+  height: 100%;
+  max-width: 550px;
+  max-height: 413px;
+
+}
+.home .card-img-overlay{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home .welcome {
+  padding: 100px 0px 50px;
+}
+.home .h-connect {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 600;
+}
+.h-welcome-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home .welcome3-h {
+  font-size: 28px;
+  font-weight: 700;
+  background-image: linear-gradient(
+    270deg,
+    rgb(121, 67, 213) 0%,
+    rgb(190, 153, 254) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+.home .containers-div {
+  display: flex;
+  gap: 20px;
+  padding: 0px 20px;
+  margin-top: 50px;
+}
+.home .containers-div2 .container6{
+  background-color: rgb(137, 101, 194) !important;
+  padding: 50px 0px 0px 0px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.home .container6 .direct-img{
+width: 100% !important;
+margin-top: 33px;
+}
+.home .containers-div2 {
+  display: flex;
+  gap: 20px;
+  padding: 0px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.home .container2 {
+  background: url(../../Components/Assets/background4.png) no-repeat;
+  background-size: 100% 100%;
+  padding: 50px 0px 0px 0px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.home .container5 .h-posts{
+    color: #000 !important;
+}
+.home .container5 .p-direct{
+    color: #000 !important;
+}
+.home .container4 {
+  background: linear-gradient(to bottom, #9161e3, #F2F2FF);
+  padding: 50px 0px 0px 0px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.home .container5 {
+  background-color: #F2F2FF;
+  padding: 50px 0px 0px 0px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.home .container3 {
+  background: url(../../Components/Assets/background5.png) no-repeat;
+  background-size: 100% 100%;
+  padding: 50px 0px 0px 0px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.home .laptopimg {
+  width: 90%;
+  margin-left: -40px;
+}
+.home .p-with {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: 400;
+  font-size: 17px;
+  margin-top: 40px;
+  padding: 0px 50px;
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+.home .p-direct {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: 400;
+  font-size: 17px;
+  margin-top: 40px;
+  padding: 0px 160px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.home .h-empowering {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.3em;
+  text-align: center;
+}
+.home .h-posts {
+  font-size: 28px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 1.2em;
+  text-align: center;
+  padding: 0px 170px;
+}
+.home .make-h {
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 1.1em;
+  text-align: center;
+  margin-top: 30px;
+}
+.home .marquee-img {
+  height: 135px;
+  width: 158px;
+  margin: 0px 12px;
+}
+/* .home .card {
+  background-color: transparent !important;
+  border: 0px;
+  width: 727px;
+  height: 450px;
+} */
+.home .checks-div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 40px;
+}
+.home .form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  gap: 15px;
+}
+.home .email-inp {
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  box-shadow: transparent 0px 0px 0px 1px inset;
+  width: 335px;
+  outline: none;
+}
+.home .btn-join {
+  appearance: none;
+  display: inline-block;
+  line-height: 1.4em;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 15px;
+  font-family: "Inter Regular", Inter, Inter, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 600;
+  font-size: 16px;
+  background: var(--token-33722da1-56ef-4815-82ed-442105eb06b1, rgb(0, 0, 0));
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  z-index: 1;
+  opacity: 1;
+}
+.home .p-get {
+  font-size: 11px;
+  font-weight: 400;
+  color: #000;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.home .engage-p {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 435px;
+  color: rgb(61, 61, 61);
+  margin-top: 30px;
+  margin-bottom: 0px;
+  line-height: 1.7em;
+}
+.home .home-h {
+  font-size: 52px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 30px;
+}
+.home .collaborate-p {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  background-color: #ffffff;
+  margin-top: 100px;
+}
+.home .head {
+  background: url("https://framerusercontent.com/images/bQHPR6R1nFoIoLU0PF39Yn415o.jpg")
+    no-repeat;
+  background-size: 100% 100%;
+}
+.home .speaker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+  border-radius: 22px;
+  height: 34px;
+  background-color: rgb(244, 235, 255);
+}
+.home .p-speaker {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width:450px) {
+  .home .engage-p{
+    width:100%;
+    padding: 0px 10px;
+  }
+  .home .email-inp{
+    max-width: 300px;
+    width: 90%;
+  }
+  .home .p-with{
+    padding: 0px 10px;
+  }
+  .home .h-connect{
+    font-size: 40px;
+  }
+  .home .welcome3-h{
+    font-size: 20px;
+  }
+  .home .p-direct{
+    padding: 0px 20px;
+  }
+  .home .h-posts{
+    padding: 0px 20px;
+  }
+}
+/* @media (max-width:685px) {
+  .home .video{
+    padding: 35px 66px !important;
+  }
+} */
+@media (max-width:810px) {
+  .home .card{
+    background: none;
+  }
+ .home .video{
+  border-radius: 14px;
+  max-width: 350px;
+  max-height: 248px;
+  padding: 0px !important;
+ }
+}
+@media (max-width:1100px) {
+.home .containers-div{
+  flex-wrap: wrap;
+}
+.home .containers-div2{
+  flex-wrap: wrap;
+}
+}

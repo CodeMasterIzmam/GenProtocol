@@ -1,0 +1,28 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 50px;
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    flex-wrap: wrap;
+}
+.footer .twitter{
+    margin-left: -5px;
+}
+.footer .link-div{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.footer .link-div a:hover{
+    color: rgb(255, 255, 255);
+}
+.footer .link-div a{
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
